@@ -27,7 +27,7 @@ const productSchema = new mongoose.Schema({
         required: true
     }
 });
-
+console.log("Start")
 console.log("Fetching works");
 
 const Product = mongoose.model("product", productSchema);
